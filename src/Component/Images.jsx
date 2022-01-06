@@ -7,7 +7,7 @@ const Images = ({ images }) => {
       {images.map((data) => {
         return (
           <div key={data.id} className="photo card-h">
-            <img src={data.urls.regular} alt="api" />
+            <img src={data.urls.regular} alt="mock-api" />
           </div>
         );
       })}

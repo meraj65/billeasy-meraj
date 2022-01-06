@@ -4,7 +4,7 @@ const ShowImages = ({ image }) => {
   console.log(image);
   return (
     <div className="photo">
-      <img src={image.urls.regular} alt="" />
+      <img src={image.urls.regular} alt="mock-api" />
     </div>
   );
 };

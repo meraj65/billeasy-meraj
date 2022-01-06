@@ -10,7 +10,6 @@ function App() {
     axios
       .get("http://www.mocky.io/v2/5ecb5c353000008f00ddd5a0")
       .then((res) => {
-        // console.log(res); // infinite
         setimages(res.data);
       })
       .catch((err) => {
