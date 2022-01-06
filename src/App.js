@@ -1,10 +1,28 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Image from "./Component/Image";
+import axios from "axios";
+import { useState, useEffect } from "react";
+import Images from "./Component/Images";
+
 function App() {
+  const [images, setimages] = useState([]);
+
+  useEffect(() => {
+    axios
+      .get("http://www.mocky.io/v2/5ecb5c353000008f00ddd5a0")
+      .then((res) => {
+        setimages(res.data);
+      })
+      .catch((err) => {
+        console.log(err);
+      });
+  });
+
   return (
-    <div className="App">
-      <Image />
+    <div className="container">
+      {images.urls}
+      <div className="photos">
+        {images.length > 0 && <Images images={images} />}
+      </div>
     </div>
   );
 }
