@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/billeasy-meraj/static/css/main.073c9b0a.css",
+    "main.js": "/billeasy-meraj/static/js/main.99dd6e4d.js",
+    "static/js/787.594be6ee.chunk.js": "/billeasy-meraj/static/js/787.594be6ee.chunk.js",
+    "static/media/logo.svg": "/billeasy-meraj/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/billeasy-meraj/index.html",
+    "main.073c9b0a.css.map": "/billeasy-meraj/static/css/main.073c9b0a.css.map",
+    "main.99dd6e4d.js.map": "/billeasy-meraj/static/js/main.99dd6e4d.js.map",
+    "787.594be6ee.chunk.js.map": "/billeasy-meraj/static/js/787.594be6ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.99dd6e4d.js"
+  ]
+}
