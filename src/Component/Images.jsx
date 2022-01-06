@@ -6,7 +6,7 @@ const Images = ({ images }) => {
     <div className="maindiv">
       {images.map((data) => {
         return (
-          <div key={data.id} className="photo">
+          <div key={data.id} className="photo card-h">
             <img src={data.urls.regular} alt="api" />
           </div>
         );

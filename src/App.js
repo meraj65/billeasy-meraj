@@ -10,6 +10,7 @@ function App() {
     axios
       .get("http://www.mocky.io/v2/5ecb5c353000008f00ddd5a0")
       .then((res) => {
+        // console.log(res); // infinite
         setimages(res.data);
       })
       .catch((err) => {
@@ -18,7 +19,7 @@ function App() {
   });
 
   return (
-    <div className="container">
+    <div className="container pr-0 pl-0 mt-2">
       {images.urls}
       <div className="photos">
         {images.length > 0 && <Images images={images} />}
